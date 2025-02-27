@@ -8,8 +8,14 @@ import costumer3 from './assets/costumer3.png'
 import ongkir from './assets/ongkir.png'
 import gratisongkir from './assets/gratisongkir.png'
 import { SendHorizontal, Star } from "lucide-react";
+import useFacebookPixel from "./hooks/facebookPixelHook";
 
 const App = () => {
+
+  const pixelId = import.meta.env.VITE_FB_PIXEL_ID;
+
+  useFacebookPixel(pixelId);
+
   return (
     <div className="flex flex-col">
       <img className="h-28 md:h-36 w-full" src={ongkir} alt="..." />
