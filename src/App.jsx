@@ -91,7 +91,7 @@ const App = () => {
             <p>Maka… Kami Kasih Harga Spesial Untuk Anda Sekarang!</p>
             <p className="line-through text-[rgb(0,255,0)] font-bold">Rp. 1.000.000</p>
             <p>Sekarang Menjadi </p> <br />
-            <p className="text-[rgb(0,255,0)] text-2xl font-bold">Rp. 599.000 </p>
+            <p className="text-[rgb(0,255,0)] text-2xl font-bold">Rp. 499.000 </p>
           </div>
         </div>
         <div class="w-full h-96 md:w-4/12 min-w-96 bg-slate-100 overflow-hidden">
